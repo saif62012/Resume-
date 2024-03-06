@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*   css of main box */
+.mainbox {
+    display: flex;
+}
+/* <!-- here main_box left  css start --> */
+.mainbox_left {
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.mainbox_left .img {
+    background-image: url(./2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-radius: 50px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 300px;
+    height: 300px;
+}
+
+.mainbox_left .anchor_tage a {
+    display: block;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.mainbox_left .skills {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.mainbox_left .skills h2 {
+    color: rgb(62, 148, 235);
+}
+
+#border {
+    border: 2px solid dodgerblue;
+    width: 350px;
+    height: 0.85px;
+}
+
+#bold-border {
+    border: 4px solid dodgerblue;
+    width: 50%;
+}
+
+span {
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+ /* <!-- here main_box right  css start --> */
+.mainbox_right {
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    height: 100%;
+    padding-left: 10px;
+}
+
+.mainbox_right .box_right-1 {
+    /* display: inline; */
+    height: 200px;
+    line-height: 30px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    background-color: #1e90ff;
+}
+
+#broder1 {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+.work_ex_box {
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}  
+.work_ex_box  h2 {
+    color: rgb(62, 148, 235);
+}  
+
+.work_ex_box #date {
+    display: flex;
+    margin-left: 80%;
+}
+
+.work_ex_box #border {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.work_ex_box h6 {
+    margin: 10px;
+}
+
+.work_ex_box a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    line-height: 10px;
+    width: 30%;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.work_ex_box ul {
+    margin: 10px;
+    line-height: 30px;
+}
+
+.edct_box {
+    margin-left: 30px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.edct_box #date {
+    display: flex;
+    margin-left: 80%;
+}
+
+.edct_box #border {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h6 {
+    margin: 10px;
+}
+
+.edct_box a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-top: 10px;
+    line-height: 10px;
+    width: 30%;
+    height: 20px;
+    margin-top: 10px;
+}
